@@ -1,15 +1,6 @@
     {r, echo=TRUE, warning=FALSE, message=FALSE}
 
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax
-for authoring HTML, PDF, and MS Word documents. For more details on
-using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that
-includes both content as well as the output of any embedded R code
-chunks within the document. You can embed an R code chunk like this: \##
-set working directory
+## set working directory
 
     setwd("~/Coursera/Reproducible Research/Week_2/RepData_PeerAssessment1")
 
@@ -28,7 +19,7 @@ set working directory
 
     ## 'data.frame':    17568 obs. of  3 variables:
     ##  $ steps   : num  NA NA NA NA NA NA NA NA NA NA ...
-    ##  $ date    : Date, format: "2012-10-01" "2012-10-01" "2012-10-01" "2012-10-01" ...
+    ##  $ date    : Date, format: "2012-10-01" "2012-10-01" ...
     ##  $ interval: int  0 5 10 15 20 25 30 35 40 45 ...
 
 ## 2. What is mean total number of steps taken per day?
