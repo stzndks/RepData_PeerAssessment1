@@ -217,4 +217,3 @@ xyplot(imputedstepsperinterval$steps ~ imputedstepsperinterval$interval|imputeds
 ![](PA1_template_files/figure-html/unnamed-chunk-15-1.png)<!-- -->
 
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
