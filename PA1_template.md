@@ -1,3 +1,5 @@
+\###`{r setup, include=FALSE} ###knitr::opts_chunk$set(echo = TRUE) ###`
+
 ## R Markdown
 
 This is an R Markdown document. Markdown is a simple formatting syntax
@@ -9,7 +11,7 @@ includes both content as well as the output of any embedded R code
 chunks within the document. You can embed an R code chunk like this: \##
 set working directory
 
-    setwd("~/Coursera/Reproducible Research/Week_2/project")
+    setwd("~/Coursera/Reproducible Research/Week_2/RepData_PeerAssessment1")
 
 ## 1. Loading and preprocessing the data
 
