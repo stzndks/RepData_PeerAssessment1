@@ -1,13 +1,13 @@
 ---
-title: "PA1_template"
+title: "Activity Monitoring Data"
 author: "Stavros Tzanidakis"
 date: "2023-12-29"
 output:
     html_document:
-    keep_md: true
+      keep_md: true
     
 ---
-```{r, echo=FALSE, results='hide', warning=FALSE, message=FALSE}
+```{r, echo=TRUE, results='hide', warning=FALSE, message=FALSE}
 ```
 
 ## set working directory
