@@ -1,24 +1,18 @@
 ---
 title: "PA1_template"
-author: "st"
+author: "Stavros Tzanidakis"
 date: "2023-12-29"
 output:
-  html_document: default
-  word_document: default
+    
+  html_document:
+     keep_md: true
+    
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 ## set working directory
 ```{r}
-setwd("~/Coursera/Reproducible Research/Week_2/project")
+setwd("~/Coursera/Reproducible Research/Week_2/RepData_PeerAssessment1")
 ```
 
 
@@ -34,7 +28,7 @@ str(activity)
 stepsperday <- aggregate(steps~date,activity,sum)
 ```
 ##### 2.1. Make a histogram of the total number of steps taken each day
-```{r}
+```{r,echo=TRUE}
 hist(stepsperday$steps, main = paste("Total steps per day"), col="red", xlab="Number of steps")
 ```
 ##### 2.2 Calculate and report the mean and median total number of steps taken per day
