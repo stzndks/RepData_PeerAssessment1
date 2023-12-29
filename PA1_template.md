@@ -1,4 +1,4 @@
-\###`{r setup, include=FALSE} ###knitr::opts_chunk$set(echo = TRUE) ###`
+    {r, echo=FALSE, results='hide', warning=FALSE, message=FALSE}
 
 ## R Markdown
 
