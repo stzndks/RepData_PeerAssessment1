@@ -1,4 +1,4 @@
-    {r, echo=FALSE, results='hide', warning=FALSE, message=FALSE}
+    {r, echo=TRUE, results='hide', warning=FALSE, message=FALSE}
 
 ## R Markdown
 
