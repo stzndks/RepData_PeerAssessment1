@@ -3,12 +3,12 @@ title: "PA1_template"
 author: "Stavros Tzanidakis"
 date: "2023-12-29"
 output:
-    
-  html_document:
-     keep_md: true
+    html_document:
+    keep_md: true
     
 ---
-
+```{r, echo=FALSE, results='hide', warning=FALSE, message=FALSE}
+```
 
 ## set working directory
 ```{r}
